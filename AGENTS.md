@@ -12,9 +12,9 @@
 ## Structure
 
 ```
-├── 修真门派掌门路.md           # Consolidated full novel (all chapters)
-├── 修真门派掌门路_原文_齐可休-001_697.txt  # Raw original text dump
-├── 修真门派掌门路/
+├── md/修真门派掌门路_001-697.md           # Consolidated full novel (all chapters)
+├── txt/修真门派掌门路_原文_齐可休-001_697.txt  # Raw original text dump
+├── md/
 │   ├── 第0XX卷-卷名/         # Per-volume chapters (1 file per chapter)
 │   ├── 设定/                  # World-building settings (lore)
 │   ├── 番外/                 # Side stories
