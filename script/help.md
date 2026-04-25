@@ -1,4 +1,4 @@
-
+# 常用脚本
 
 ## 修改md文件标题层级
 
@@ -8,7 +8,7 @@ find chapters/ -name "*.md" | xargs -I {} sed -i 's/^# 第/### 第/' {}
 
 ```
 
-## 将各章节文件合成为卷文件
+## 将各chapter文件合成为卷文件
 
 ```bash
 
@@ -18,6 +18,16 @@ for d in `ls -1` ; do
 done
 
 ```
+
+## 将vols文件 合成为 zml文件
+
+```bash
+
+find vols/ -name "*.md" | xargs cat > zml.md
+
+```
+
+
 ## 将卷名增加到卷文件中
 
 ```bash
