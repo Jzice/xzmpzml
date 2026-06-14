@@ -63,4 +63,15 @@
 
 ## 地图集
 
-- [地图集](地图集/README.md)
+- [地图](地图/README.md)
+
+## 参考
+
+### wiki
+
+* 修真门派掌门路wiki: https://zml.huijiwiki.com/wiki
+
+### 其他参考源
+
+- 灰机维基分类页: https://zml.huijiwiki.com/wiki/%E5%88%86%E7%B1%BB:%E4%BA%BA%E7%89%A9
+- 红袖读书百科: https://www.hongxiu.com/baike/1pcbn19zpno0w
