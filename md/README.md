@@ -12,10 +12,10 @@
 ## 原文
 
 - [txt原文](../txt/修真门派掌门路_原文_齐可休-001_697.txt)
-- [wiki](https://zml.huijiwiki.com/wiki/)
 - [md全文(001-697章)](./修真门派掌门路_001-697.md)
-- [分卷(01-25卷)](./chapters/)
-- [分章(001-697章)](./vols/)
+- [分卷(01-25卷)](./vols/)
+- [分章(001-697章)](./chapters/)
+- [wiki](https://zml.huijiwiki.com/wiki/)
 
 ## 目录
 
