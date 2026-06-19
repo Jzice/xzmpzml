@@ -18,7 +18,7 @@
 │   ├── 第0XX卷-卷名/         # Per-volume chapters (1 file per chapter)
 │   ├── 设定/                  # World-building settings (lore)
 │   ├── 番外/                 # Side stories
-│   ├── 档案资料/              # Characters & factions（角色档案系统）
+│   ├── 资料/              # Characters & factions（角色档案系统）
 │   │   ├── README.md          # Root index with character tables + directory tree
 │   │   ├── 001.齐云/           # 齐云派 (超级宗门)
 │   │   │   ├── 人物/05.化神/       # 角色档案，按修为等级划分
@@ -63,16 +63,19 @@
 **每个目录都应包含 README.md 文件**，作为该目录的索引和概览。
 
 README.md 应包含：
+
 - 本目录基本信息（名称、类型、说明）
 - 目录内子内容索引（列表或表格形式）
 - 关联说明（与其他目录的关系）
 
 **Agent 扫描目录时的标准流程**：
+
 1. **先读 README.md** — 快速了解目录结构和基本信息
 2. **再按需查看子内容** — 根据任务需求深入检查具体文件
 3. **不要跳过 README 直接扫描文件** — README 提供的上下文能避免误判和遗漏
 
 此规则适用于所有目录，尤其是：
+
 - `档案资料/` 及其子目录
 - `设定/` 目录
 - 各卷目录（`第0XX卷-卷名/`）
@@ -80,6 +83,7 @@ README.md 应包含：
 ### 角色文件模板
 
 每个角色文件按此结构组织：
+
 ```
 # 姓名
 ## 基本信息（姓名/性别/修为/本命/势力/首次出现/现状）
@@ -126,6 +130,7 @@ README.md 应包含：
 ```
 
 #### 提取原则
+
 - **严格基于原文**：性格画像需引用原文中的具体行为、对话或旁白作为依据，禁止凭空臆测
 - **宁缺毋滥**：信息量不足以支撑画像的角色，仅标注核心特质，不强行填充
 - **避免标签化**：性格描述应体现角色的复杂性与矛盾性，避免"好人/坏人"二元判断
@@ -157,6 +162,7 @@ This is a passive document repository. There are no build scripts, tests, or CI 
 This project has a graphify knowledge graph at graphify-out/.
 
 Rules:
+
 - Before answering architecture or codebase questions, read graphify-out/GRAPH_REPORT.md for god nodes and community structure
 - If graphify-out/wiki/index.md exists, navigate it instead of reading raw files
 - After modifying code files in this session, run `graphify update .` to keep the graph current (AST-only, no API cost)
