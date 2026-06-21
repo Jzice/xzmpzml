@@ -18,7 +18,7 @@
 │   ├── 第0XX卷-卷名/         # Per-volume chapters (1 file per chapter)
 │   ├── 设定/                  # World-building settings (lore)
 │   ├── 番外/                 # Side stories
-│   ├── 资料/              # Characters & factions（角色档案系统）
+│   ├── 角色/              # Characters & factions（角色档案系统）
 │   │   ├── README.md          # Root index with character tables + directory tree
 │   │   ├── 001.齐云/           # 齐云派 (超级宗门)
 │   │   │   ├── 人物/05.化神/       # 角色档案，按修为等级划分
